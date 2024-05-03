@@ -1,0 +1,34 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add formBuilder
+
+PATH: 
+  C:\xampp\htdocs\admin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Yarn\bin;C:\Users\aksha\.console-ninja\.bin;C:\Users\aksha\AppData\Local\Microsoft\WindowsApps;C:\Users\aksha\AppData\Local\Microsoft VS Code\bin;C:\xampp\htdocs\admin;C:\Users\aksha\AppData\Roaming\Composer\vendor\bin;C:\Users\aksha\AppData\Roaming\npm;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\bin;C:\Users\aksha\AppData\Local\Yarn\bin;C:\Program Files (x86)\Yarn\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  22.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/formBuilder: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy.company.com
+      at ClientRequest.onError (C:\Program Files (x86)\Yarn\lib\cli.js:152376:17)
+      at Object.onceWrapper (node:events:635:26)
+      at ClientRequest.emit (node:events:520:28)
+      at Socket.socketErrorListener (node:_http_client:500:9)
+      at Socket.emit (node:events:520:28)
+      at emitErrorNT (node:internal/streams/destroy:169:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
