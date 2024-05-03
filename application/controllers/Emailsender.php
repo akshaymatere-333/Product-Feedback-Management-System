@@ -21,8 +21,8 @@ class Emailsender extends CI_Controller
                 'protocol' => 'smtp',
                 'smtp_host' => 'smtp.gmail.com',
                 'smtp_port' => 587,
-                'smtp_user' => 'zeteshubham@gmail.com',
-                'smtp_pass' => 'lkcgotuvjanrfkrg', // Replace with your Gmail password (or app password)
+                'smtp_user' => 'demo@gmail.com',//your email id here
+                'smtp_pass' => 'password', // Replace with your Gmail password (or app password)
                 'mailtype' => 'html', // Set to 'text' if you want to send plain text emails
                 'charset' => 'utf-8', // Character encoding for the email
                 'smtp_crypto' => 'tls'
@@ -31,7 +31,7 @@ class Emailsender extends CI_Controller
 
             $this->email->initialize($config);
             $this->email->set_newline("\r\n");
-            $this->email->from('zeteshubham@gmail.com', 'Application Square');
+            $this->email->from('demo@gmail.com', 'demo name');
             $this->email->to($customer['Email']);
             $this->email->subject('Feedback Request');
 
