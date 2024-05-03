@@ -11,4 +11,4 @@ use "demo@gmail.com" as id and Password "123456" for login.
 To send the mail you need to configure it file in
 	application/config/Email.php    and also in     application/controllers/Emailsender.php
 
-My mail id - akmf610@gmail.com
+My mail id - akmf610@gmail.com 
