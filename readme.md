@@ -24,5 +24,4 @@ Here i s some screenshots of my project
 ![Product](https://github.com/akshaymatere-333/Product-Feedback-Management-System/assets/130675828/fc3958b1-3d7d-45d4-9157-56f62409fe37)
 ![Report1](https://github.com/akshaymatere-333/Product-Feedback-Management-System/assets/130675828/77510cac-6b4c-46e1-bf4c-3e324098b6aa)
 ![Report2](https://github.com/akshaymatere-333/Product-Feedback-Management-System/assets/130675828/e8049cf6-75bf-42fd-ab0a-562c901cb8ba)
-![admin](https://github.com/akshaymatere-333/Product-Feedback-Management-System/assets/130675828/1db94d3a-beb0-4bb3-8acc-bbff1559cb81)
 ![Login](https://github.com/akshaymatere-333/Product-Feedback-Management-System/assets/130675828/13d755df-b641-414d-96e2-32b65895f611)
