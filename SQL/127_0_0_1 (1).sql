@@ -38,19 +38,7 @@ CREATE TABLE `customer` (
   `Product` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `customer`
---
 
-INSERT INTO `customer` (`id`, `FirstName`, `LastName`, `Phone`, `Email`, `Product`) VALUES
-(2, 'Shubham', 'Zete', 1234567891, 'sz123@gmail.com', 'SmartTV'),
-(3, 'Akshay', 'Matere', 9665261485, 'akshaymatere333@gmail.com', 'SmartTV'),
-(4, 'Akshay', 'Matere', 9665261485, 'akshaymatere333@gmail.com', 'Laptop'),
-(6, 'Akshay', 'Matere', 9665261485, 'akshaymatere333@gmail.com', 'SmartTV'),
-(7, 'Akshay', 'Matere', 9665261485, 'akshaymatere333@gmail.com', 'Mobile'),
-(8, 'Akshay', 'Matere', 9665261485, 'zeteshubham@gmail.com', 'Laptop');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `deleted_ids`
@@ -106,14 +94,7 @@ CREATE TABLE `employee` (
 -- Dumping data for table `employee`
 --
 
-INSERT INTO `employee` (`id`, `FirstName`, `LastName`, `Phone`, `Email`, `Department`) VALUES
-(1, 'Akshay', 'Matere', 9665261485, 'akshaymatere333@redmail.com', 'Mobile'),
-(2, 'Akshay', 'Matere', 9665261485, 'akshaymatere333@gmail.com', 'Analysis'),
-(4, 'Akshay', 'Matere', 7896541235, 'edmec54@gmail.com', 'inward');
 
--- --------------------------------------------------------
-
---
 -- Table structure for table `feedback_form`
 --
 
@@ -150,26 +131,7 @@ INSERT INTO `feedback_form` (`name`, `mobile`, `device_name`, `rating1`, `rating
 ('User3', 3333333333, 'Smart TV', '5', '4', '5', '4', '5', '2', 'excellent overall', 'everything', 'NA', 'NA', '2024-04-21 18:29:00.000000'),
 ('User1', 1111111111, 'Laptop', '4', '3', '2', '5', '4', '1', 'good feature', 'camera', 'battery life', 'improve performance', '2024-04-24 00:59:00.000000'),
 ('User2', 2222222222, 'Mobile', '2', '5', '4', '3', '1', '3', 'average experience', 'design', 'price', 'user interface', '2024-04-24 18:04:00.000000'),
-('User3', 3333333333, 'Smart TV', '5', '4', '5', '4', '5', '2', 'excellent overall', 'everything', 'NA', 'NA', '2024-04-24 18:29:00.000000'),
-('Akshay', 9665261485, 'Laptop', '1', '2', '3', '4', '5', '1', '', '', '', '', '2024-04-24 13:36:36.529513'),
-('Akshay', 9665261485, 'Laptop', '1', '2', '3', '4', '5', '1', '', '', '', '', '2024-04-24 13:47:18.756973'),
-('Akshay', 9665261485, 'Laptop', '1', '2', '3', '4', '5', '1', '', '', '', '', '2024-04-24 13:49:10.754681'),
-('Akshay', 9665261485, 'Mobile', '1', '2', '3', '4', '5', '1', '', '', '', '', '2024-04-24 13:56:53.141313'),
-('Akshay', 9665261485, 'Laptop', '1', '2', '3', '4', '5', '1', '', '', '', '', '2024-04-24 14:02:53.432177'),
-('Akshay', 9665261485, 'Laptop', '1', '2', '3', '4', '5', '1', 'NA', 'NA', '', 'NA', '2024-04-24 14:14:12.327015'),
-('Akshay', 9665261485, 'Laptop', '1', '2', '3', '4', '5', '1', 'NA', 'NA', '', 'NA', '2024-04-24 15:05:14.147115'),
-('ABHI', 123456789, 'SmartTV', '3', '4', '1', '2', '2', '4', 'NA', 'NA', 'NA', 'NA', '2024-04-24 15:06:18.305370'),
-('ABHI', 123456789, 'SmartTV', '3', '4', '1', '2', '2', '4', 'NA', 'NA', 'NA', 'NA', '2024-04-24 15:11:04.164764'),
-('Shubham zete', 7531598264, 'Laptop', '4', '4', '4', '4', '4', '4', 'ok', 'ok', 'ok', 'ok', '2024-04-25 02:47:19.394690'),
-('Akshay', 9665261485, 'Mobile', '3', '4', '5', '4', '3', '2', 'NA', 'NA', '', 'NA', '2024-04-25 15:22:26.723657'),
-('Akshay', 9665261485, 'Mobile', '3', '4', '5', '4', '3', '2', 'NA', 'NA', '', 'NA', '2024-04-25 15:48:09.669688'),
-('Akshay', 9665261485, 'Mobile', '3', '4', '5', '4', '3', '2', 'NA', 'NA', '', 'NA', '2024-04-25 15:48:14.343951'),
-('', 0, '', '', '', '', '', '', '', '', '', '', '', '2024-04-25 15:48:19.191023'),
-('Ak', 1234567892, 'Laptop', '3', '3', '3', '3', '3', '3', 'ok', 'nice', 'well', '', '2024-04-29 03:32:15.176281'),
-('Ak', 1234567892, 'Laptop', '3', '3', '3', '3', '3', '3', 'ok', 'nice', 'well', '', '2024-04-29 03:35:07.762468'),
-('Ak', 1234567892, 'Laptop', '3', '3', '3', '3', '3', '3', 'ok', 'nice', 'well', '', '2024-04-29 03:37:27.096795'),
-('Ak', 1234567892, 'Laptop', '3', '3', '3', '3', '3', '3', 'ok', 'nice', 'well', '', '2024-04-29 03:41:14.118324'),
-('shubham', 9145566401, 'SmartTV', '3', '3', '5', '4', '4', '4', 'NA', 'NA', 'NA', 'NA', '2024-04-29 08:25:42.400031');
+('User3', 3333333333, 'Smart TV', '5', '4', '5', '4', '5', '2', 'excellent overall', 'everything', 'NA', 'NA', '2024-04-24 18:29:00.000000');
 
 -- --------------------------------------------------------
 
@@ -237,8 +199,7 @@ CREATE TABLE `tblusers` (
 --
 
 INSERT INTO `tblusers` (`id`, `FirstName`, `LastName`, `Email`, `Password`, `PostingDate`) VALUES
-(1, 'Akshay', 'Matere', 'akshaymatere333@gmail.com', '123456', '2024-03-11 15:31:12'),
-(2, 'Shubham', 'Zete', 'ShubhamZete345@hotmail.com', '789456', '2024-04-01 06:03:18');
+(2, 'FirstDemo', 'SurnameDemo', 'demo@gmail.com', '123456', '2024-04-01 06:03:18');
 
 --
 -- Indexes for dumped tables
