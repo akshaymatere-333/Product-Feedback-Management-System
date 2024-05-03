@@ -7,3 +7,8 @@ you need to start your localhost from xampp else if you have a host then no need
 enter the url in your browser "localhost/admin/Login" to access the application.
 
 use "demo@gmail.com" as id and Password "123456" for login.
+
+To send the mail you need to configure it file in
+	application/config/Email.php    and also in     application/controllers/Emailsender.php
+
+My mail id - akmf610@gmail.com
