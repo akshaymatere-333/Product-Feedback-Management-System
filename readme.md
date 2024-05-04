@@ -1,19 +1,7 @@
-You need to add customer and employee data in database table from application.
 
-For Graph representation you need to send feedback form to customer when they feel the form and submit it then graph will display a record.
+My mail id - akmf610@gmail.com / 9665261485
 
-you need to start your localhost from xampp else if you have a host then no need.
-
-enter the url in your browser "localhost/admin/Login" to access the application.
-
-use "demo@gmail.com" as id and Password "123456" for login.
-
-To send the mail you need to configure it file in
-	application/config/Email.php    and also in     application/controllers/Emailsender.php
-
-My mail id - akmf610@gmail.com 
-
-Here i s some screenshots of my project
+Here is some screenshots of my project
 ![Dashboard1](https://github.com/akshaymatere-333/Product-Feedback-Management-System/assets/130675828/99993c80-a5be-4bbd-8dec-dba259349b53)
 ![Dashboard2](https://github.com/akshaymatere-333/Product-Feedback-Management-System/assets/130675828/4058e050-c68f-4fc0-8a3a-e9084915adbf)
 ![Builder](https://github.com/akshaymatere-333/Product-Feedback-Management-System/assets/130675828/65d03037-e0ff-4fc1-bab1-20b4c1f4435b)
